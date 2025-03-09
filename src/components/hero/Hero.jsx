@@ -9,7 +9,7 @@ const Slider = () => {
       // title: "Fitness",
       subtitle: "Training",
       heading: "LD Gym",
-      description: "LD is happy to Serve you a fitness app .",
+      description: "Sport is a form of physical activity or game. ",
       buttonText: "Contact",
       backgroundImage:
         "https://media.gq-magazine.co.uk/photos/67657a8e8113b47d55474865/16:9/w_2560%2Cc_limit/2012-homeworkout.jpg", // Sostituisci con il percorso della tua immagine
@@ -18,8 +18,8 @@ const Slider = () => {
       // title: "Fitness",
       subtitle: "Training",
       heading: "Neogym",
-      description: "Lorem ipsum dolor sit amet...",
-      buttonText: "Contattaci",
+      description: "Sport is generally recognised as system of activities based in physical athleticism or physical dexterity.",
+      buttonText: "Contact",
       backgroundImage:
         "https://www.dmoose.com/cdn/shop/articles/feature-image_5437ab6a-8565-46da-bb72-6891b21a95bc.jpg?v=1685102059", // Sostituisci con il percorso della tua immagine
     },
@@ -27,8 +27,8 @@ const Slider = () => {
       // title: "Fitness",
       subtitle: "Training",
       heading: "Neogym",
-      description: "Lorem ipsum dolor sit amet...",
-      buttonText: "Contattaci",
+      description: "With major competitions admitting only sports meeting this definition.",
+      buttonText: "Contact",
       backgroundImage:
         "https://cdn.muscleandstrength.com/sites/default/files/styles/800x500/public/lean_woman_doing_dumbbell_row.jpg?itok=eU6elx6n", // Sostituisci con il percorso della tua immagine
     },
@@ -36,8 +36,8 @@ const Slider = () => {
       // title: "Fitness",
       subtitle: "Training",
       heading: "Neogym",
-      description: "Lorem ipsum dolor sit amet...",
-      buttonText: "Contattaci",
+      description: "Often competitive and organized, sports use, maintain, or improve physical ability and skills.",
+      buttonText: "Contact",
       backgroundImage:
         "https://www.dmoose.com/cdn/shop/articles/feature-image_932f229c-ac45-44c0-b4f6-b41a4be3126d.jpg?v=1682512277", // Sostituisci con il percorso della tua immagine
     },
@@ -45,8 +45,8 @@ const Slider = () => {
       // title: "Fitness",
       subtitle: "Training",
       heading: "Neogym",
-      description: "Lorem ipsum dolor sit amet...",
-      buttonText: "Contattaci",
+      description: "A wide range of sports were already established by the time of Ancient Greece and the military culture and the development of sport in Greece influenced one another considerably .",
+      buttonText: "Contact",
       backgroundImage:
         "https://admin.wellandgood.com/wp-content/uploads/sites/3/2019/10/GettyImages-1132086660.jpg?w=500&quality=50", // Sostituisci con il percorso della tua immagine
     },
