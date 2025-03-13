@@ -15,8 +15,9 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-black p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <img src={logo} alt="" className="w-18 object-cover" />
-
+        <Link to={"/"}>
+          <img src={logo} alt="" className="w-18 object-cover" />
+        </Link>
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -44,26 +45,24 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex space-x-4">
-          {/* <Link to={"/"}> */}
-            <button href="#" className="btn text-gray-300 hover:text-white">
-              Home
-            </button>
-          {/* </Link> */}
-          {/* <Link to={"/about"}> */}
-            <button href="#" className="btn text-gray-300 hover:text-white">
+          <Link to={"/"}>
+            <button className="btn text-gray-300 hover:text-white">Home</button>
+          </Link>
+          <Link to={"/who-we-are"}>
+            <button className="btn text-gray-300 hover:text-white">
               About
             </button>
-          {/* </Link> */}
-          {/* <Link to={"/services"}> */}
-            <button href="#" className="btn text-gray-300 hover:text-white">
+          </Link>
+          <Link to={"/why-us"}>
+            <button className="btn text-gray-300 hover:text-white">
               Services
             </button>
-          {/* </Link> */}
-          {/* <Link to={"/contact"}> */}
-            <button href="#" className="btn text-gray-300 hover:text-white">
+          </Link>
+          <Link to={"/contact"}>
+            <button className="btn text-gray-300 hover:text-white">
               Contact
             </button>
-          {/* </Link> */}
+          </Link>
         </div>
       </div>
 
@@ -77,18 +76,26 @@ const Navbar = () => {
             className="md:hidden mt-2"
           >
             <div className="flex flex-col space-y-2">
-              <a href="#" className="text-gray-300 hover:text-white block py-2">
-                Home
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white block py-2">
-                About
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white block py-2">
-                Services
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white block py-2">
-                Contact
-              </a>
+              <Link to={"/"}>
+                <button className="btn text-gray-300 hover:text-white">
+                  Home
+                </button>
+              </Link>
+              <Link to={"/who-we-are"}>
+                <button className="btn text-gray-300 hover:text-white">
+                  About
+                </button>
+              </Link>
+              <Link to={"/why-us"}>
+                <button className="btn text-gray-300 hover:text-white">
+                  Services
+                </button>
+              </Link>
+              <Link to={"/contact"}>
+                <button className="btn text-gray-300 hover:text-white">
+                  Contact
+                </button>
+              </Link>
             </div>
           </motion.div>
         )}

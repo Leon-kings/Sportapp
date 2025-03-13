@@ -34,10 +34,14 @@ const Footer = () => {
           </Box>
           <Box className="flex gap-6 space-x-4">
             <Link color="inherit">
-              <button><Reviews className="size-4"/></button>
+              <button>
+                <Reviews className="size-4" />
+              </button>
             </Link>
             <Link color="inherit">
-              <button><ReviewsOutlined/></button>
+              <button>
+                <ReviewsOutlined />
+              </button>
             </Link>
             <Link color="inherit">
               <button>blog</button>
@@ -49,24 +53,31 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} <GMTTime />
           </Typography>
           <Box className="flex items-center space-x-4">
-            <Typography
-              variant="body2"
-              className="flex items-center sm:hidden lg:block"
-            >
-              <Phone className="mr-2 sm:hidden lg:block" /> +250 (78) 794 4577
-            </Typography>
-            <IconButton color="inherit">
-              <Facebook />
-            </IconButton>
-            <IconButton color="inherit">
-              <Twitter />
-            </IconButton>
-            <IconButton color="inherit">
-              <LinkedIn />
-            </IconButton>
-            <IconButton color="inherit">
-              <Google />
-            </IconButton>
+            <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+              <div>
+                <Typography
+                  variant="body2"
+                  className="flex text-amber-200 items-center sm:hidden md:block"
+                >
+                  <Phone className="mr-2 sm:hidden lg:block" /> +250 (78) 794
+                  4577
+                </Typography>
+              </div>
+              <div>
+                <IconButton color="inherit">
+                  <Facebook />
+                </IconButton>
+                <IconButton color="inherit">
+                  <Twitter />
+                </IconButton>
+                <IconButton color="inherit">
+                  <LinkedIn />
+                </IconButton>
+                <IconButton color="inherit">
+                  <Google />
+                </IconButton>
+              </div>
+            </div>
           </Box>
         </Box>
       </Container>
